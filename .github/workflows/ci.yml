@@ -379,7 +379,7 @@ jobs:
           python3 -m pip install -e .
           echo "BRANCH_NAME=${GITHUB_REF##*/}" >> $GITHUB_ENV
       - name: Download Metrics
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4.1.7
         with:
           name: metrics
           path: current
@@ -429,12 +429,12 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GH_TOKEN }}
       - name: Download Image (Docker/amd64)
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4.1.7
         with:
           name: docker-image-amd64
           path: /tmp/docker
       - name: Download Image (Docker/aarch64)
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4.1.7
         with:
           name: docker-image-aarch64
           path: /tmp/docker

@@ -14,6 +14,16 @@
 ## Documentation
 -->
 
+# 2.3.11
+
+## Tool Updates
+
+* Allow KLayout version up to 0.30.*.
+
+## Steps
+
+* Backport https://github.com/librelane/librelane/commit/2b2bf0cf5b05580dca3bd1aaef1a9a3f60a9f3e9 to remove dependency on `ioplace_parser`.
+
 # 2.3.10
 
 ## Steps

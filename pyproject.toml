@@ -12,11 +12,11 @@ documentation = "https://openlane.readthedocs.io"
 
 [tool.poetry.dependencies]
 python = ">=3.8,<4"
+ciel = ">=2.0.0,<3"
 click = ">=8,<9"
 cloup = ">=3.0.5,<4"
 pyyaml = ">=5,<7"
 rich = ">=12,<14"
-volare = ">=0.16.0"
 lxml = ">=4.9.0"
 deprecated = ">=1.2.10,<2"
 libparse = ">=0.3.1,<1"

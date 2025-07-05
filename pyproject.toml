@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "openlane"
-version = "2.3.11"
+version = "2.3.12"
 description = "An infrastructure for implementing chip design flows"
 authors = ["Efabless Corporation and Contributors <donn@efabless.com>"]
 readme = "Readme.md"
@@ -16,7 +16,7 @@ ciel = ">=2.0.0,<3"
 click = ">=8,<9"
 cloup = ">=3.0.5,<4"
 pyyaml = ">=5,<7"
-rich = ">=12,<14"
+rich = ">=12,<15"
 lxml = ">=4.9.0"
 deprecated = ">=1.2.10,<2"
 libparse = ">=0.3.1,<1"
